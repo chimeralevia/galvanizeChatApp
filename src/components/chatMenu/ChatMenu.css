@@ -1,0 +1,36 @@
+.chat-menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 200px;
+    height: 300px;
+}
+
+.chat-menu .message-input {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width:90%;
+    padding:30px;
+    font-size:25px;
+    border:none;
+}
+
+
+.chat-menu .message-send {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width:10%;
+    background-color: rgb(14, 4, 104);
+    color:white;
+    font-size: 30px;
+    border:none;
+}
+
+.chat-menu .message-send:hover {
+    background-color: rgb(17, 3, 141);
+    color:white;
+}

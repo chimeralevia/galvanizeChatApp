@@ -1,0 +1,16 @@
+.message-view{
+    position: absolute;
+    top:100px;
+    right:0;
+    bottom:300px;
+    left:200px;
+    background-color: aliceblue;
+    padding:25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.message-wrapper{
+    display: block;
+    position: relative;
+}

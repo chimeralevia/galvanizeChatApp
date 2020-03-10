@@ -1,0 +1,35 @@
+.message{
+    background-color: rgb(0, 48, 102);
+    width:50%;
+    padding:10px;
+    border-radius: 0 10px 10px 10px;
+    color:white;
+    margin:15px;
+    float: left;
+}
+
+.message.ownMessage{
+    background-color: rgb(0, 102, 63);
+    float: right;
+}
+
+.message.ownMessage .username{
+    text-align: right;
+}
+
+.message.ownMessage .text{
+    text-align: right;
+}
+
+.message .username{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.message .text{
+    font-size: 20px;
+    padding:10px;
+    font-style: italic;
+    text-align: left;
+}
